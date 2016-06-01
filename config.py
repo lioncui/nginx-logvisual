@@ -1,0 +1,9 @@
+DBUSER = ""
+DBPASS = ""
+DBHOST = ""
+DBPORT = ""
+DBNAME = ""
+
+SECRET_KEY = "2erghjko0987tfdcvbju765red"
+SQLALCHEMY_DATABASE_URI = "mysql+pymysql://%s:%s@%s:%s/%s" % (DBUSER, DBPASS, DBHOST, DBPORT, DBNAME)
+SQLALCHEMY_TRACK_MODIFICATIONS = False
